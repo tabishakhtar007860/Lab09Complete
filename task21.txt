@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+main()
+{
+   int arr[2];
+   int array[9];
+   for(int x=0;x<2;x++)
+   {
+    cout<<"enter elements of first array:";
+    cin>> aar[x];
+   }
+   for(int x=0;x<9;x++)
+   {
+    cout<<"enter elements of second array:";
+    cin>> array[9];
+   }
+   cout<< arr[0];
+   for(int x=0;x<9;x++)
+   {
+    cout<< array[9];
+   }
+    cout<< array[1];
+
+
+}

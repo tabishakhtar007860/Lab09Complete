@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+main()
+{
+    int resis;
+    cout<< "enter number of resistances: ";
+    cin>>resis;
+    int store[resis];
+    for(int x=0;x<resis;x++)
+    {
+        cout<<"enter resistences"<<x+1<<"  :";
+        cin >> store[resis];
+    }
+    int add=0;
+    for(int x=0;x<resis;x++)
+    {
+        add=add+store[resis];
+    }
+
+    cout<< add;
+
+
+}
